@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body class="layout event list">
+    <body class="layout event list ui">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -32,8 +32,8 @@
               <div class="brand">
               	<a class="mark" href="/" title="MICA Graphic Design">MICA Graphic Design</a>
               </div> <!-- /.brand -->
-              
-              
+            
+            
               <nav class="navigation menus" role="navigation">
                 <strong class="visuallyhidden">Main Navigation</strong>
                 <ul class="menu level-1" role="menubar">
@@ -46,16 +46,23 @@
                   <li class="item">
                     <a href="#" class="link" title="Events">Current Work</a>
                   </li>
-                  <li class="item">
+                  <li class="item dropdown ui">
                     <a href="#Profiles" class="link" title="Profiles">Profiles</a>
+                    <div class="dropdown content">
+                      <ul class="menu ui">
+                        <li class="item"><a href="#" class="link">Contributors</a></li>
+                        <li class="item"><a href="#" class="link">Students</a></li>
+                        <li class="item"><a href="#" class="link">Faculty</a></li>
+                      </ul>
+                    </div>
                   </li>
                   <li class="item">
                     <a href="#" class="link" title="Opportunities">Opportunities</a>
                   </li>
                 </ul><!-- /.menu -->
               </nav>
-              
-              
+            
+            
               <nav class="utility menus">
                 <ul class="menu">
                   <li class="item">
@@ -64,8 +71,14 @@
                   <li class="item">
                     <a href="#Archives" class="link">Archives</a>
                   </li>
-                  <li class="item">
+                  <li class="item dropdown ui">
                     <a href="#About" class="link">About</a>
+                    <div class="dropdown content">
+                      <ul class="menu ui">
+                        <li class="item"><a href="#" class="link">Purpose</a></li>
+                        <li class="item"><a href="#" class="link">MICA Design League</a></li>
+                      </ul>
+                    </div>
                   </li>
                   <li class="item">
                     <a href="#Contact" class="link">Contact</a>
@@ -74,8 +87,8 @@
                     <a href="#Login" class="link">Login</a>
                   </li>
                 </ul>
-                
-                
+            
+            
                 <form action="#" class="form" role="search">
                   <div class="field">
                     <label for="masthead-search"></label>
@@ -105,6 +118,7 @@
                   </li>
                 </ul>
               </nav></header><!-- /.masthead -->
+
 
             <main class="page" role="main">
             
@@ -506,7 +520,7 @@
 
 
 
-<div class="sub">
+<div class="sub content ui">
   <nav class="formats menus segment">
     <ul class="menu">
       <li class="item"><a href="#" class="link">Lecture</a></li>
@@ -519,7 +533,7 @@
   <div class="subscribe segment">
     <!-- Begin MailChimp Signup Form -->
     <div class="email" id="mc_embed_signup">
-    <form action="//baltimorebrew.us4.list-manage.com/subscribe/post?u=e16fe3f86f4146722d64dcc06&amp;id=bfe8fc4b48" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
       <h2>Subscribe to our mailing list</h2>
     <div class="mc-field-group">
@@ -536,7 +550,8 @@
     </form>
     </div>
     
-    <!--End mc_embed_signup-->    <a href="#" class="rss">Subscribe to RSS</a>
+    <!--End mc_embed_signup-->
+    <a href="#" class="rss">Subscribe to RSS</a>
   </div> <!-- /.subscribe -->
 
 
@@ -809,8 +824,8 @@
 
           <footer class="footer">
           
-            <nav class="departments menus">
-            	<ul class="menu">
+            <nav class="departments menus ui">
+            	<ul class="menu ui">
             		<li class="item">
             			<a class="link" href="http://www.mica.edu" title="MICA.edu">MICA.edu</a>
             		</li>
@@ -822,6 +837,7 @@
             		</li>
             	</ul>
             </nav>
+          
             <p class="legal">&copy; Maryland Institute College of Art</p>
           </footer><!-- /.footer -->        </div><!-- /.canvas -->
 
