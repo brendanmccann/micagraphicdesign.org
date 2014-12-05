@@ -638,6 +638,12 @@ max-width: 80%
         }
 
 
+        /*profile*/
+
+        .items.posts.ui img {
+            padding-top: 10px;
+        }
+
 
 
  
