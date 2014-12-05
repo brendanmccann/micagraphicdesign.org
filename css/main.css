@@ -114,6 +114,29 @@
 
 /*drop down style*/
 
+
+/* Home Page Styles */
+
+.gallery img {
+    min-width: 300px;
+    height: auto;
+}
+
+.home.lede.ui img {
+    max-width: 300px;
+}
+
+.main {
+    margin-left: 40px;
+    background-color: white;
+    padding: 5px;
+}
+
+.events.items.ui {
+    list-style: none;
+}
+
+
 .page.heading.ui {
     margin-left: -1px;
 }
@@ -220,10 +243,6 @@ img {
     color: #292929;
  }
 
- .items.events.ui {
-    margin-left: 10%;
- }
-
 .header {
     font-family: monda;
     background-color: white;
@@ -283,7 +302,7 @@ img {
     }
     
     .page {
-/*max-width: 80%*/
+max-width: 80%
     }
     
 
@@ -332,6 +351,13 @@ img {
     .content {
         background-color: white;
     }
+
+
+    .gallery img {
+    min-width: 100%;
+    height: auto;
+    }
+
 
 }
             /* End Mobile Device Styling*/ 
@@ -491,13 +517,6 @@ img {
 
         /*profile detail styling*/
 
-/*
-        .profiles .body {
-            width: 80%;
-        }
-*/
-
-
 
         .header {
             padding-left: 5px;
@@ -603,7 +622,7 @@ img {
             margin-left: -40px;
         }
 
-          .byline img {
+        .byline img {
             max-width: 25%;
             height: auto;
         }
@@ -612,8 +631,11 @@ img {
             margin-left: 40px;
         }
 
+        /*homepage*/
 
-        /*Mobile Device Styling For Profile Detail*/
+        .spotify {
+            margin-left: 33px;
+        }
 
 
 
