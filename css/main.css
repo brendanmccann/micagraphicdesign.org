@@ -97,25 +97,12 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-            /* debug */
-
-/** {
-    outline: 1px dotted blue;
-}*/
-
-            /*Makes images responsive to page.*/
-
-            /* Nav Style */ 
-            /*http://www.htmlgoodies.com/beyond/css/how-to-create-horizontal-navigation-with-css3.html*/
-
-/*.brand {
-    float: left;
-}*/
-
-/*drop down style*/
-
 
 /* Home Page Styles */
+
+.event.item.teaser {
+    overflow: hidden;
+}
 
 .gallery img {
     min-width: 300px;
@@ -203,10 +190,6 @@
     display: none;
 }
 
-
-
-
-
 .legal {
     margin-left: 23px;
 }
@@ -218,6 +201,8 @@ margin-left: 4.7%;
 background-color: white;
 }
 
+
+/*Body background stripes */
 
 body {
     background-image: url('../img/bg2.png');
@@ -291,7 +276,7 @@ img {
 }
 
 
-            /* Mobile Device Styling*/
+/* Mobile Device Styling------------------------------------------------------------------------------*/
 
 @media (max-width: 600px){
     
@@ -302,7 +287,7 @@ img {
     }
     
     .page {
-max-width: 80%
+    max-width: 80%
     }
     
 
@@ -360,7 +345,8 @@ max-width: 80%
 
 
 }
-            /* End Mobile Device Styling*/ 
+
+/* End Mobile Device Styling------------------------------------------------------------------------------*/ 
 
             /* Tablet Styling */
 
@@ -418,13 +404,13 @@ max-width: 80%
     background-color: white;
     }
 
-
+/*Media Query End*/
 }
 
 
-            /* End Tablet Styles */
+/* End Tablet Styles ------------------------------------------------------------------------------*/
 
-            /* Desktop Styles */ 
+/* Desktop Styles    ------------------------------------------------------------------------------*/ 
 
 
 @media (min-width: 769px){
@@ -508,141 +494,146 @@ max-width: 80%
     }
 }
 
-/*    Closing Bracket For Desktop    */
+/*Closing Bracket For Desktop ------------------------------------------------------------------------------*/
 
 
 
 
 
 
-        /*profile detail styling*/
+/*profile detail styling      ------------------------------------------------------------------------------*/
 
 
-        .header {
-            padding-left: 5px;
-        }
+    .header {
+        padding-left: 5px;
+    }
 
-         .menu {
-            list-style-type: none;
-        }
+    .menu {
+        list-style-type: none;
+    }
 
-        .menu.ui {
-            list-style-type: none;
-        }
+    .menu.ui {
+        list-style-type: none;
+    }
 
-        h2 {
-            font-family: monda;
-            font-style: bold;
-        }
-
-
-        .categories.menus.segment.ui {
-            margin-left: 40px;
-        }
+    h2 {
+        font-family: monda;
+        font-style: bold;
+    }
 
 
-        .masthead {
+    .categories.menus.segment.ui {
+        margin-left: 40px;
+    }
+
+
+    .masthead {
             
-        }
+    }
 
-        .body {
-            padding: 5px;
-        }
+    .body {
+        padding: 5px;
+    }
 
-        .segment.gallery{
-            display: inline;
-        }
+    .segment.gallery{
+        display: inline;
+    }
         
 
-        .segment.gallery img {
-            width: 30%;
-        }
+    .segment.gallery img {
+        width: 30%;
+    }
 
-         .h-entry.story {
-            max-width: 680px;
-        }
-
-
-
-        .h-entry.story img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        
-        .h-entry.story .content {
-            margin-left: 40px;
-            padding-left: 0%;
-            background-color: white;
-        }
-
-        
-        .body strong {
-            font-family: roboto;
-        }
-
-        
-        .body p {
-            font-family: roboto;
-        }
-
-        .caption {
-            background-color: white;
-            max-width: 650px;
-        }
-
-        .slide {
-            text-align: justify;
-            font-size: 0.1px;
-        }
-
-        .slide li {
-            display: inline-block;
-            width: 70%;
-        }
-
-        .profiles .profile.card li {
-            font-family: monda;
-            font-size: 9pt;
-            list-style: none;
-            padding-left: 5px;
-        }
-
-        .profiles .profile.card img {
-            float: left;
-            max-width: 100px;
-        }
-
-        .byline {
-            max-width: 25%;
-            padding: 5px;
-        }
-
-        .byline.card.ui {
-            margin-left: -40px;
-        }
-
-        .byline img {
-            max-width: 25%;
-            height: auto;
-        }
-
-        .footer {
-            margin-left: 40px;
-        }
-
-        /*homepage*/
-
-        .spotify {
-            margin-left: 33px;
-        }
+     .h-entry.story {
+        max-width: 680px;
+    }
 
 
-        /*profile*/
 
-        .items.posts.ui img {
-            padding-top: 10px;
-        }
+    .h-entry.story img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+    .h-entry.story .content {
+        margin-left: 40px;
+        padding-left: 0%;
+        background-color: white;
+    }
+
+    
+    .body strong {
+        font-family: roboto;
+    }
+
+    
+    .body p {
+        font-family: roboto;
+    }
+
+    .caption {
+        background-color: white;
+        max-width: 650px;
+    }
+
+    .slide {
+        text-align: justify;
+        font-size: 0.1px;
+    }
+
+    .slide li {
+        display: inline-block;
+        width: 70%;
+    }
+
+    .profiles .profile.card li {
+        font-family: monda;
+        font-size: 9pt;
+        list-style: none;
+        padding-left: 5px;
+    }
+
+    .profiles .profile.card img {
+        float: left;
+        max-width: 100px;
+    }
+
+    .byline {
+        max-width: 25%;
+        padding: 5px;
+    }
+
+    .byline.card.ui {
+        margin-left: -40px;
+    }
+
+    .byline img {
+        max-width: 25%;
+        height: auto;
+    }
+
+    .footer {
+        margin-left: 40px;
+    }
+
+    /*homepage*/
+
+    .spotify {
+        margin-left: 33px;
+    }
+
+
+    /*profile*/
+
+    .items.posts.ui img {
+        padding-top: 10px;
+    }
+
+
+/* index ------------------------------------------------------------------------------ */
+
+
 
 
 
